@@ -1,0 +1,52 @@
+.footer {
+    background: #8B0000;
+    color: #F5E8C7;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.socialLinks {
+    margin-top: 0.5rem;
+}
+
+.socialLinks a {
+    color: #F5E8C7;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.socialLinks a:hover {
+    color: #1E90FF;
+}
+
+.subscribeSection {
+    background: #8B0000;
+    padding: 1rem;
+    text-align: center;
+}
+
+.subscribeSection p {
+    margin-bottom: 0.5rem;
+    color: #F5E8C7;
+}
+
+.subscribeInput {
+    padding: 0.5rem;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+.subscribeButton {
+    padding: 0.5rem 1rem;
+    background: #1E90FF;
+    color: #F5E8C7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscribeButton:hover {
+    background: #104E8B;
+}

@@ -1,0 +1,49 @@
+.card {
+    background: #F5E8C7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.description {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+    color: #5C4033;
+}
+
+.description.visible {
+    opacity: 1;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.githubLink {
+    display: block;
+    margin: 1rem 0;
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.githubLink:hover {
+    text-decoration: underline;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    background: #8B0000;
+    color: #F5E8C7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #700000;
+}
