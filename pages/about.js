@@ -1,7 +1,7 @@
 "use client";
 
 import Head from 'next/head';
-import styles from '../../styles/About.module.css';
+import styles from './styles/About.module.css';
 
 export default function About() {
     const members = [
@@ -54,4 +54,5 @@ export default function About() {
     );
 
 }
+
 
