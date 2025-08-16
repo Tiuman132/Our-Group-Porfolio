@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import styles from '../styles/ProjectCard.module.css';
+import styles from './styles/ProjectCard.module.css';
 
 export default function ProjectCard({ title, description, github }) {
     const [isHovered, setIsHovered] = useState(false);
@@ -23,4 +23,5 @@ export default function ProjectCard({ title, description, github }) {
             )}
         </div>
     );
+
 }
