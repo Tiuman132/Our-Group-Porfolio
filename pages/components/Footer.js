@@ -1,6 +1,6 @@
 "use client";
 
-import styles from '../styles/Footer.module.css';
+import styles from './styles/Footer.module.css';
 
 export default function Footer() {
     return (
@@ -13,4 +13,5 @@ export default function Footer() {
             </div>
         </footer>
     );
+
 }
