@@ -1,8 +1,8 @@
 "use client";
 
 import Head from 'next/head';
-import ProjectCard from 'components/ProjectCard';
-import styles from 'styles/Projects.module.css';
+import ProjectCard from '../../components/ProjectCard';
+import styles from '../../styles/Projects.module.css';
 
 export default function Projects() {
     const projects = [
@@ -45,3 +45,4 @@ export default function Projects() {
     );
 
 }
+
